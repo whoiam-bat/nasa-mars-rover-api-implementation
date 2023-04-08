@@ -24,13 +24,19 @@
 * Connect created db with project:
   * Get NASA API using this link: https://api.nasa.gov
   * Click on 'Edit configuration'
+  
   ![img.png](readme-imgs/edit-configuration.png)
+
   * In 'Build and run' section click on 'Modify options'
   * Select 'Program arguments' option
+  
   ![img.png](readme-imgs/modify-options.png)
+
   * Then add following variables with your values
   where `--API_KEY=` is your NASA API KEY
   `--DB_URL=` - url to database
   `--DB_USERNAME= ` and `--DB_PASSWORD=` username and password to database
+  
   ![img.png](readme-imgs/values.png)
+
 * Run project and got to this address ``http://localhost:8080/auth/login``
